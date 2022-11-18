@@ -55,6 +55,7 @@ export default function Home(props: HomeProps) {
             onChange={(event) => setPoolTitle(event.target.value)}
             value={poolTitle}
           />
+          {/* hey paul */}
           <button
             className="bg-yellow-500 py-4 px-6 rounded font-bold text-gray-900 text-sm uppercase hover:bg-yellow-700"
             type="submit"
